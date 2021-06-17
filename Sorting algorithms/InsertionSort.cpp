@@ -1,5 +1,9 @@
 void insertionSort(int *arr, int n)
 {
+    //O(n^2)
+    // array is divided into two fileds one is sorted and another is unsorted
+    // sorted is left field and unsorted is right field and we will pick one value from unsorted and compare with sorted values and we 
+    // will place the unsorted value at correct position in sorted array.
     
     for(int i=1;i<n;i++)
     {
